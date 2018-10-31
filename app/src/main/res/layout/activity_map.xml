@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        tools:context="com.example.dspahija.travelguide.class_activities.Map" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_SearchBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:elevation="10dp"
+        android:background="@drawable/whiteborder">
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:id="@+id/ic_search"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_place_info_white"/>
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/ic_search"
+            android:layout_centerVertical="true"
+            android:textSize="15sp"
+            android:id="@+id/input_SearchMap"
+            android:background="@null"
+            android:hint="@string/search_place"
+
+            android:imeOptions="actionSearch"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/ic_place_info"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/relativeLayout_SearchBar"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_place_info"
+        android:contentDescription="@string/infobar" />
+
+    <ImageView
+        android:id="@+id/ic_gps"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/relativeLayout_SearchBar"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_gps"
+        android:contentDescription="@string/searchbar" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutMenu"
+        style="?android:attr/button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/map"
+        android:layout_marginBottom="8dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_aboutKosovo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="btn_aboutKosovo"
+            android:text="@string/home" />
+
+        <Button
+            android:id="@+id/btn_findPlaces"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="btn_Places"
+            android:text="@string/places" />
+
+        <Button
+            android:id="@+id/btn_Map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="btn_Map"
+            android:text="@string/map" />
+    </LinearLayout>
+
+</RelativeLayout>

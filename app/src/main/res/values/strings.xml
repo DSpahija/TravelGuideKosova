@@ -1,0 +1,39 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">TravelGuide</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="kosova_guide">Kosova Guide</string>
+    <string name="places">Places</string>
+    <string name="map">Map</string>
+    <string name="home">Home</string>
+    <string name="weather">Weather</string>
+    <string name="kosova_guide1">Kosova Guide</string>
+    <string name="kosova_description">Kosova is probably among the youngest countries of the world as it received its independence
+        the twenty first century only, in the year 2008, to be precise. Since there wasn’t much development,
+        half the country is under poverty line.
+        The country’s major natural resources remain untapped and hence the economy of the country is primarily agrarian.
+        Having said all that, Kosovo has been bestowed by nature with variety of gifts in the form of a picturesque setting.
+        These landscapes are covered with unending lush greens and in these wilds, reside a number of animal species which are native
+        and a few of rare ones too. This developing country, although does not recesive much tourist attention because of its political situation,
+        has got great potential to develop into a major tourist hotspot.</string>
+    <string name="cities">CITIES</string>
+    <string name="title_activity_map">Map</string>
+    <string name="spinner_title">spinner_title</string>
+    <string name="search">Search</string>
+    <string name="Category">Category:</string>
+    <string name="description"><![CDATA[>]]></string>
+    <string name="name">Name</string>
+
+    <string name="location_shpija_e_vjeter">Street Qamil Hoxha, Pristina</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="searchMap">Search</string>
+    <string name="searchBtnMap">Search</string>
+    <string name="search_place">Search place</string>
+    <string name="searchbar">searchBar</string>
+    <string name="infobar">infobar</string>
+</resources>
