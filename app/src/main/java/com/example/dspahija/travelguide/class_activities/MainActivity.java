@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
+
         if (doubleBackToExitPressedOnce) {
             android.os.Process.killProcess(android.os.Process.myPid());
             System.exit(1);

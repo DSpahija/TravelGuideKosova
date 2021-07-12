@@ -16,7 +16,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_travelguidebg"
-        android:label="@string/app_name"
+        android:label="Travel Guide Kosova 1.0"
         android:roundIcon="@mipmap/ic_travelguidebg"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -41,5 +41,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
